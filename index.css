@@ -141,7 +141,7 @@
 @media screen and (max-width: 1100px) and (min-width: 800px){
     .photo-grid{
         grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-        margin: 0 48px 0;
+        margin: 92px 48px 0;
         gap: 14px;
     }
 }
@@ -155,8 +155,14 @@
 .place{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
-    gap: 48px 35px;
+    gap: 48px 40px;
     margin-top: 80px;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 800px){
+    .place{
+        gap: 48px 32px;
+    }
 }
 
 .place:first-child{
