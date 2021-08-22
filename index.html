@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./Inter Web/inter.css">
-    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="body">
     <div class="page">
@@ -71,10 +69,13 @@
 
             <section class="places">
                 <div class="place">
+                    <!-- Нужно ли делать принудительный перенос, потому что размер схожий
+                    с макетом, но автоматического переноса не происходит  на размере 768? 
+                    и во многих местах такая проблема есть ли какой то фикс для этого ? -->
                     <h2 class="place__title">Куршская коса</h2>
                     <div class="place__website">
-                        <p class="website__url-heading">URL</p>
-                        <a href="http://park-kosa.ru" class="website__link">park-kosa.ru</a>
+                        <p class="place__url-heading">URL</p>
+                        <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
                     </div>
                     <img src="./images/places/Curonian_spit.jpg" alt="Куршская коса" class="place__image">
                     <div class="place__paragraphs">
@@ -100,8 +101,8 @@
                 <div class="place">
                     <h2 class="place__title">Кольский</h2>
                     <div class="place__website">
-                        <p class="website__url-heading">URL</p>
-                        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="website__link">National Geographic</a>
+                        <p class="place__url-heading">URL</p>
+                        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
                     </div>
                     <img src="./images/places/Kola-peninsula.jpg" alt="Кольский полуостров" class="place__image">
                     <div class="place__paragraphs">
@@ -126,8 +127,8 @@
                 <div class="place">
                     <h2 class="place__title">Алтай</h2>
                     <div class="place__website">
-                        <p class="website__url-heading">URL</p>
-                        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="website__link">Facebook</a>
+                        <p class="place__url-heading">URL</p>
+                        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
                     </div>
                     <img src="./images/places/Altai.jpg" alt="Алтай" class="place__image">
                     <div class="place__paragraphs">
@@ -152,8 +153,8 @@
                 <div class="place">
                     <h2 class="place__title">Зимний Байкал</h2>
                     <div class="place__website">
-                        <p class="website__url-heading">URL</p>
-                        <a href="https://vk.com/baikalmile" class="website__link">https://vk.com/baikalmile</a>
+                        <p class="place__url-heading">URL</p>
+                        <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
                     </div>
                     <img src="./images/places/Winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
                     <div class="place__paragraphs">
@@ -176,8 +177,8 @@
                 <div class="place">
                     <h2 class="place__title">Карелия</h2>
                     <div class="place__website">
-                        <p class="website__url-heading">URL</p>
-                        <a href="http://vodlozero.ru" class="website__link">http://vodlozero.ru/</a>
+                        <p class="place__url-heading">URL</p>
+                        <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
                     </div>
                     <img src="./images/places/Karelia.jpg" alt="Карелия" class="place__image">
                     <div class="place__paragraphs">
