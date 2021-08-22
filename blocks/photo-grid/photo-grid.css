@@ -7,17 +7,17 @@
     justify-items: center;
 }
 
-@media screen and (max-width: 799px){
-    .photo-grid{
-        margin: 88px 24px 0;
-    }
-}
-
 @media screen and (max-width: 1100px){
     .photo-grid{
         grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
         margin: 92px 48px 0;
         gap: 14px;
+    }
+}
+
+@media screen and (max-width: 799px){
+    .photo-grid{
+        margin: 88px 24px 0;
     }
 }
 
