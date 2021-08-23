@@ -5,13 +5,28 @@
     margin: 32px auto 0;
     text-align: center;
     font-weight: normal;
+    padding-bottom: 20%;
+}
+
+@media screen and (max-width: 1100px){
+    .cover__subtitle{
+        padding-bottom: 19%;
+    }
+}
+
+@media screen and (max-width: 799px){
+    .cover__subtitle{
+        padding-bottom: 15%;
+    }
 }
 
 @media screen and (max-width: 700px) {
     .cover__subtitle{
+        max-width: 288px;
         font-size: 14px;
         line-height: 16px;
         margin: 16px auto 0;
         max-width: 288px;
+        padding-bottom: 10%;
     }
 }
