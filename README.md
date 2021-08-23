@@ -26,4 +26,4 @@
 
 ---
 
-[Ссылка на gh-pages](C:/Users/1003649/Desktop/dev/russian-travel/index.html)
+[Ссылка на gh-pages](https://solidfalkon.github.io/russian-travel/index.html)
