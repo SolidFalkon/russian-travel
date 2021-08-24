@@ -3,6 +3,7 @@
     text-decoration: none;
     background-image: url(../../../images/city.jpg);
     background-size: cover;
+    background-position: center;
     color: #FFFFFF;
     position: relative;
     z-index: 0;
